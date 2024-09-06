@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form id="useForm">
+        <label for="name" Enter your name:</label>
+            <input type="text" id="name" name="name">
+
+            <button type="submit">Submit</button>
+    </form>
+
+    <script>
+        document.getElementById('useForm').addEventListener('submit', function(event){
+
+            event.preventDefault()
+            let userName = document.getElementById('name').value
+        console.log("User enetered" , userName)
+        })
+    </script>
+
+</body>
+</html>
