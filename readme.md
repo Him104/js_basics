@@ -7,3 +7,11 @@ Operators in js
 
 
 Template literals - is a feature that allows for easier string interpolation. we use backticks (`) and ${} to embed variables within string.
+
+
+
+HOF (Higher order function) =  function that takes another function as an argument
+
+types :---
+
+map, filter, reduce, forEach
