@@ -14,4 +14,8 @@ HOF (Higher order function) =  function that takes another function as an argume
 
 types :---
 
-map, filter, reduce, forEach
+map = map is a hof which simplifies our task with few lines of code and doesn't require to create an iteration function, it iterates your array or object and returns your result in new array without modifying original array.
+
+filter = filter is a hof which doesn't modify your original array and returns the output in new array with the specifies condition.
+ 
+ , reduce, forEach

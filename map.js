@@ -1,8 +1,8 @@
 // const numbers = [1,2,3,4]
 
-// const division = numbers.map((a) => a/2)
+// const shubham = numbers.map((a) => a*2)
 
-// console.log(division)
+// console.log(shubham)
 
 
 const users = [
@@ -11,6 +11,6 @@ const users = [
 {id:3, name:'xyz'}
 ]
 
-const names = users.map( (user) => user.name === 'abc' ? user.name : null)
+const names = users.filter( user => user.name === 'abc' ).map(user =>user.name)
 
 console.log(names)
