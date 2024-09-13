@@ -18,4 +18,7 @@ map = map is a hof which simplifies our task with few lines of code and doesn't 
 
 filter = filter is a hof which doesn't modify your original array and returns the output in new array with the specifies condition.
  
- , reduce, forEach
+ reduce = takes a function and reduces the array to a single value
+ 
+ 
+ , forEach
