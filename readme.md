@@ -21,4 +21,6 @@ filter = filter is a hof which doesn't modify your original array and returns th
  reduce = takes a function and reduces the array to a single value
  
  
- , forEach
+forEach : method is a hof that loops through an array and executes a given function once for each element in the array.
+
+
